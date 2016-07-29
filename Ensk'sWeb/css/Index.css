@@ -1,0 +1,122 @@
+body{
+    font-family: 微软雅黑;
+    background-image: url("../images/body.jpg");
+    font-size: 13px;
+}
+
+#Logo{
+    width: 272px;
+    height: 92px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-bar{
+    margin-top: 25px;
+    width: 630px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-bar input {
+    width: 520px;
+    height: 22px;
+    padding: 9px 10px;
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color: #555;
+    border: none;
+    background: #fff;
+    overflow: hidden;
+    outline:none;
+    vertical-align: middle;
+    box-shadow: 0px 0px 3px #666666;
+}
+
+#search-bar button {
+    width: 90px;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    overflow: hidden;
+    vertical-align: middle;
+    background-color: #008cd6;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px #000000;
+}
+
+#search-bar button:hover{
+    background-color: #0074b2;
+}
+
+#nav-panel{
+    margin-top: 70px;
+    width:840px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-top: 10px;
+    background-color: #FFFFFF;
+}
+
+#nav-panel-title{
+    width: 810px;
+    height:40px;
+    cursor: pointer;
+}
+#nav-panel-title-txt{
+    float: left;
+    line-height: 40px;
+    font-weight: 500;
+    color: #333333;
+}
+
+#nav-panel-title-weather{
+    float: right;
+    margin-top: 8px;
+    width: 400px;
+    height:20px;
+}
+
+.nav-panel-line{
+    clear: both;
+    width: 810px;
+    height:1px;
+    background-color: #F0F0F0;
+}
+
+.nav-panel-item {
+    float: left;
+    display: block;
+    height: 40px;
+    width: 160px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: #333;
+    /*background-color: aqua;*/
+}
+
+.nav-panel-item:hover
+{
+    background-color: #F7F7F7;
+}
+
+.nav-panel-item-img{
+    float: left;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.nav-panel-item-txt {
+    float: left;
+    margin-left: 5px;
+    line-height: 40px;
+    height: 40px;
+}
