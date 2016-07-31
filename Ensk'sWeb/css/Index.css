@@ -73,15 +73,15 @@ body{
 }
 #nav-panel-title-txt{
     float: left;
+    margin-left: 6px;
     line-height: 40px;
-    font-weight: 500;
     color: #333333;
 }
 
 #nav-panel-title-weather{
     float: right;
     margin-top: 8px;
-    width: 400px;
+    width: 370px;
     height:20px;
 }
 
