@@ -121,3 +121,32 @@ body{
     line-height: 40px;
     height: 40px;
 }
+
+.trans_fadeout{
+   -webkit-transition:all 0.2s linear;
+   -moz-transition:all 0.2s linear;
+   -ms-transition:all 0.2s linear;
+   -o-transition:all 0.2s linear;
+   transition:all 0.2s linear;
+}
+
+.menu_item{
+	width:180px;
+	height:50px;
+	margin-top:0px;
+	margin-left:-50px;
+	position:absolute;
+	visibility:hidden;
+	opacity:0;
+	background-color:#F80;
+}
+
+#google_lnk:hover .menu_item{
+	visibility:visible;
+	opacity:1;
+}
+
+.menu_item{
+	border-radius:10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
