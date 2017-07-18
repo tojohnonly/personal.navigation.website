@@ -81,7 +81,7 @@ body{
 
 #nav-panel-title-weather{
     float: right;
-    margin-top: 8px;
+    margin-top: 12px;
     width: 370px;
     height:20px;
 }
@@ -120,31 +120,4 @@ body{
     margin-left: 5px;
     line-height: 40px;
     height: 40px;
-}
-
-.trans_fadeout{
-   -webkit-transition:all 0.2s linear;
-   -moz-transition:all 0.2s linear;
-   -ms-transition:all 0.2s linear;
-   -o-transition:all 0.2s linear;
-   transition:all 0.2s linear;
-}
-
-.menu_item{
-	width:400px;
-	height:210px;
-	margin-top:0px;
-	margin-left:-50px;
-	position:absolute;
-	visibility:hidden;
-	opacity:0;
-	background-image:url("../images/bg.png");
-}
-
-#google_lnk:hover .menu_item{
-	visibility:visible;
-	opacity:1;
-}
-
-.menu_item{
 }
