@@ -1,7 +1,7 @@
 body{
     font-family: 微软雅黑;
     background-image: url("../images/body.jpg");
-    font-size: 14px;
+    font-size: 13px;
 }
 
 #title{
@@ -20,7 +20,6 @@ body{
     height: auto;
     margin-left: auto;
     margin-right: auto;
-	padding-top: 3px;
     margin-bottom: 100px;
     background-color: #EEEEEE;
     box-shadow: 0px 0px 3px #666666;
@@ -28,11 +27,11 @@ body{
 
 .article{
     width: 750px;
-    height: 33px;
+    height: 29px;
 	padding-left: 45px;
 	padding-right: 5px;
     background-color: #EEEEEE;
-	line-height: 33px;
+	line-height: 29px;
 	float: left;
     text-decoration: none;
     color: #24417d;
@@ -41,11 +40,11 @@ body{
 
 .article-2{
     width: 750px;
-    height: 33px;
+    height: 29px;
 	padding-left: 45px;
 	padding-right: 5px;
     background-color: #E6E6E6;
-	line-height: 33px;
+	line-height: 29px;
 	float: left;
     text-decoration: none;
     color: #24417d;
