@@ -1,4 +1,4 @@
-body{
+﻿body{
     font-family: 微软雅黑;
     background-image: url("../images/body.jpg");
     font-size: 13px;
@@ -59,7 +59,7 @@ body{
     margin-top: 70px;
     margin-bottom: 100px;
     width:840px;
-    height: 520px;
+    height: 479px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 30px;
