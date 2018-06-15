@@ -32,7 +32,7 @@
     overflow: hidden;
     outline:none;
     vertical-align: middle;
-    box-shadow: 0px 0px 3px #666666;
+    box-shadow: 0px 0px 3px rgb(160,190,120);
 }
 
 #search-bar button {
