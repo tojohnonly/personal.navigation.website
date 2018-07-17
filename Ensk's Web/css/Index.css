@@ -5,9 +5,9 @@
 }
 
 #logo{
-    width: 550px;
-    height: 220px;
-    margin-top: 40px;
+    width: 272px;
+    height: 92px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -32,11 +32,13 @@
     overflow: hidden;
     outline:none;
     vertical-align: middle;
-    box-shadow: 0px 0px 3px rgb(160,190,120);
+    box-shadow: 1px 1px 3px rgb(160,160,160);
 }
 
 #search-bar button {
-    width: 90px;
+	margin-top: 1px;
+	margin-left: 2px;
+    width: 88px;
     height: 40px;
     overflow: hidden;
     text-align: center;
@@ -45,18 +47,18 @@
     border: none;
     overflow: hidden;
     vertical-align: middle;
-    background-color: #008cd6;
+    background-color: rgb(210,210,210);
     outline: none;
     cursor: pointer;
-    box-shadow: 0px 0px 2px #000000;
+    box-shadow: 1px 1px 3px rgb(160,160,160);
 }
 
 #search-bar button:hover{
-    background-color: #0074b2;
+    background-color: rgb(205,205,205);
 }
 
 #nav-panel{
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 100px;
     width:840px;
     height: 515px;
@@ -102,7 +104,6 @@
     border: 1px solid transparent;
     text-decoration: none;
     color: #333;
-    /*background-color: aqua;*/
 }
 
 .nav-panel-item:hover
