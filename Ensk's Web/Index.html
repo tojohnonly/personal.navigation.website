@@ -35,6 +35,17 @@
             var search_url = "https://www.google.com/search?newwindow=1&hl=zh-CN&q=" + search_txt;
             window.open(search_url);
         }
+		function on_enter_key(){
+			if (event.keyCode==13){
+				var search_txt = document.getElementById("search-bar-input").value;
+				if (search_txt == "") {
+					alert("search text is empty ! ");
+					return false;
+				}
+				var search_url = "https://www.baidu.com/s?wd=" + search_txt;
+				window.open(search_url);
+			}
+		}
     </script>
 </head>
 <body>
@@ -47,7 +58,7 @@
 
 <!---------------------------------------------------------------------------------------------------->
 <div id="search-bar">
-    <input id="search-bar-input" type="text" placeholder="search everything ..." autocomplete="off">
+    <input id="search-bar-input"  onkeydown="on_enter_key()" type="text" placeholder="search everything ..." autocomplete="off">
 	<button style="margin-left: 185px;" onclick="do_baidu_search()">Google</button><a class="close"></a>
 	<button onclick="do_google_search()">手气不错</button><a class="close"></a>
 </div>
