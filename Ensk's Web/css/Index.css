@@ -14,14 +14,14 @@
 
 #search-bar{
     margin-top: 25px;
-    width: 630px;
+    width: 600px;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #search-bar input {
-    width: 600px;
+    width: 580px;
     height: 25px;
     padding: 9px 10px;
     font-family: 微软雅黑;
