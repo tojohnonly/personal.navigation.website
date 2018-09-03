@@ -64,33 +64,14 @@
 #nav-panel{
     margin-top: 20px;
     margin-bottom: 100px;
-    width:840px;
-    height: 515px;
+    width: 840px;
+    height: 485px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 30px;
     padding-top: 10px;
     background-color: #FFFFFF;
     border: 1px solid rgb(210,210,210);
-}
-
-#nav-panel-title{
-    width: 810px;
-    height:40px;
-    cursor: pointer;
-}
-#nav-panel-title-txt{
-    float: left;
-    margin-left: 6px;
-    line-height: 40px;
-    color: #333333;
-}
-
-#nav-panel-title-weather{
-    float: right;
-    margin-top: 12px;
-    width: 370px;
-    height:20px;
 }
 
 .nav-panel-line{
