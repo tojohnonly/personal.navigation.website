@@ -1,5 +1,4 @@
 ﻿body{
-    font-family: 微软雅黑;
     background-image: url("../images/body.jpg");
     font-size: 13px;
 }
@@ -24,7 +23,6 @@
     width: 580px;
     height: 25px;
     padding: 9px 10px;
-    font-family: 微软雅黑;
     font-size: 15px;
     color: #555;
     border: none;
