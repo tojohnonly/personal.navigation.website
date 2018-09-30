@@ -1,5 +1,6 @@
 ﻿body{
     background-image: url("../images/body.jpg");
+	font-family: 'Microsoft YaHei UI',arial,sans-serif;
     font-size: 13px;
 }
 
@@ -23,6 +24,7 @@
     width: 580px;
     height: 25px;
     padding: 9px 10px;
+	font-family: 'Microsoft YaHei UI',arial,sans-serif;
     font-size: 15px;
     color: #555;
     border: none;
