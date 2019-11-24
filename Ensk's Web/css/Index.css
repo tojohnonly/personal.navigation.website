@@ -1,5 +1,5 @@
 ﻿body{
-    background-image: url("../images/body.jpg");
+    background-color: rgb(33,33,37);
 	font-family: 'Microsoft YaHei UI',arial,sans-serif;
     font-size: 13px;
 }
@@ -32,7 +32,6 @@
     overflow: hidden;
     outline:none;
     vertical-align: middle;
-    box-shadow: 1px 1px 3px rgb(160,160,160);
 	border-radius: 2px;
 }
 
@@ -45,20 +44,19 @@
     text-align: center;
     font-size: 15px;
 	font-weight: bold;
-	color: rgb(100,100,100);
+	color: rgb(255,255,255);
     border: none;
     overflow: hidden;
     vertical-align: middle;
     outline: none;
     cursor: pointer;
 	border-radius: 2px;
-    background-color: rgb(255,255,255);
-    box-shadow: 0px 0px 1px rgb(160,160,160);
+    background-color: rgb(20,162,245);
 }
 
 #search-bar button:hover{
-    background-color: rgb(240,240,240);
-    box-shadow: 0px 0px 3px rgb(160,160,160);
+    background-color: rgb(30,172,245);
+    box-shadow: 0px 0px 3px rgb(243,67,53);
 }
 
 #nav-panel{
@@ -70,15 +68,16 @@
     margin-right: auto;
     padding-left: 30px;
     padding-top: 10px;
-    background-color: #FFFFFF;
-    border: 1px solid rgb(210,210,210);
+    background-color: rgb(58,58,62);
+
+	border-radius: 10px;
 }
 
 .nav-panel-line{
     clear: both;
     width: 810px;
     height:1px;
-    background-color: #F0F0F0;
+    background-color: rgb(62,61,65);
 }
 
 .nav-panel-item {
@@ -88,12 +87,12 @@
     width: 160px;
     border: 1px solid transparent;
     text-decoration: none;
-    color: #333;
+    color: rgb(255,255,255);
 }
 
 .nav-panel-item:hover
 {
-    background-color: #F7F7F7;
+    background-color: rgb(55,55,60);
 }
 
 .nav-panel-item-img{
