@@ -78,7 +78,7 @@
     clear: both;
     width: 810px;
     height:1px;
-    background-color: #F0F0F0;
+    background-color: rgb(245,245,245);
 }
 
 .nav-panel-item {
