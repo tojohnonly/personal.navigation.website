@@ -4,6 +4,10 @@
     font-size: 13px;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 #logo{
     width: 280px;
     height: 100px;
