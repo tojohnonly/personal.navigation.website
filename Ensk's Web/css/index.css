@@ -76,6 +76,7 @@ body::-webkit-scrollbar {
     padding-top: 10px;
     background-color: #FFFFFF;
     border: 1px solid rgb(210,210,210);
+    border-radius: 10px;
 }
 
 .nav-panel-line{
