@@ -1,6 +1,18 @@
-# Personal Navigation Website
+# Personal Customized Navigation Website
 
-> 个人浏览器导航主页
+> 個人自定義瀏覽器導航主頁
+
+> 个人自定义浏览器导航主页
+
+> カスタマイズされたブラウザナビゲーションホームページ
+
+> Personalisierte Browser Navigations Homepage
+
+> Page d'accueil de navigation du navigateur personnalisée
+
+> Home page di navigazione del browser personalizzata
+
+> صفحة التصفح الرئيسية المخصصة للمتصفح
 
 ![tojohnonly](https://github.com/tojohnonly/personal.navigation.website/blob/master/Ensk's%20Web/images/Demo.png)
 
