@@ -2,8 +2,6 @@
 
 > 個人自定義瀏覽器導航主頁
 
-> 个人自定义浏览器导航主页
-
 > カスタマイズされたブラウザナビゲーションホームページ
 
 > Personalisierte Browser Navigations Homepage
