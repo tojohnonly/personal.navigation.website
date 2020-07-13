@@ -9,7 +9,7 @@
 Personalisierte Browser Navigations Homepage  
 カスタマイズされたブラウザナビゲーションホームページ  
 Page d'accueil de navigation du navigateur personnalisée  
-صفحة التصفح الرئيسية المخصصة للمتصفح 
+صفحة التصفح الرئيسية المخصصة للمتصفح  
 Home page di navigazione del browser personalizzata   
 
 ![tojohnonly](https://github.com/tojohnonly/personal.navigation.website/blob/master/Ensk's%20Web/images/Demo.png)
