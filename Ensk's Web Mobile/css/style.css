@@ -416,11 +416,6 @@ img {
     transition: all .2s ease-in
 }
 
-.work-link .info a:hover, .work-link .tab span.active, .work-link .tab span:hover {
-    background: #e5e5e5;
-    color: #333
-}
-
 #setting-icon {
     margin-left: 40px;
     font-size: 20px;
@@ -579,11 +574,6 @@ img {
     .work-link .tab span {
         padding: 0 0 4px;
         border-bottom: 2px solid transparent
-    }
-
-    .work-link .tab span.active, .work-link .tab span:hover {
-        background: 0 0;
-        border-bottom: 2px solid #838383
     }
 
     .work-link .info ul {
