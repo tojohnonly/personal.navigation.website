@@ -17,13 +17,13 @@
         }
 
         //DO SEARCH EVENT
-        function do_baidu_search() {
+        function do_bing_search() {
             var search_txt = document.getElementById("search-bar-input").value;
             if (search_txt == "") {
                 alert("search text is empty ! ");
                 return false;
             }
-            var search_url = "https://www.baidu.com/s?wd=" + search_txt;
+            var search_url = "https://cn.bing.com/search?q=" + search_txt;
             window.open(search_url);
         }
         function do_google_search() {
@@ -42,7 +42,7 @@
 					alert("search text is empty ! ");
 					return false;
 				}
-				var search_url = "https://www.google.com/search?newwindow=1&q=" + search_txt;
+				var search_url = "https://cn.bing.com/search?q=" + search_txt;
 				window.open(search_url);
 			}
 		}
@@ -60,7 +60,7 @@
 <div id="search-bar">
     <input id="search-bar-input" autofocus="autofocus"  onkeydown="on_enter_key()" type="text" placeholder="search everything ..." autocomplete="off">
 	<button style="margin-left: 185px;" onclick="do_google_search()">Google</button><a class="close"></a>
-	<button onclick="do_baidu_search()">手气不好</button><a class="close"></a>
+	<button onclick="do_bing_search()">手气不错</button><a class="close"></a>
 </div>
 
 <!---------------------------------------------------------------------------------------------------->
@@ -126,7 +126,7 @@
         <img src="./images/web_icons/ToDo.png" alt="ToDo" height="16" width="16" class="nav-panel-item-img">
         <div class="nav-panel-item-txt">ToDo</div>
     </a>
-
+	
     <a class="nav-panel-item" title="Tmtpost" href="https://www.tmtpost.com/" target="_blank">
         <img src="./images/web_icons/Tmtpost.png" alt="Tmtpost" height="16" width="16" class="nav-panel-item-img">
         <div class="nav-panel-item-txt">Tmtpost</div>
@@ -338,9 +338,9 @@
         <div class="nav-panel-item-txt">Taobao</div>
     </a>
 	
-    <a class="nav-panel-item" title="MeiTuan" href="https://www.meituan.com" target="_blank">
-        <img src="./images/web_icons/MeiTuan.png" alt="MeiTuan" height="16" width="16" class="nav-panel-item-img">
-        <div class="nav-panel-item-txt">MeiTuan</div>
+    <a class="nav-panel-item" title="Lianjia" href="https://sz.lianjia.com/" target="_blank">
+        <img src="./images/web_icons/Lianjia.png" alt="Lianjia" height="16" width="16" class="nav-panel-item-img">
+        <div class="nav-panel-item-txt">Lianjia</div>
     </a>
 	
     <!--------------------------------------------------11-------------------------------------------------->
