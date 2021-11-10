@@ -23,7 +23,7 @@
                 alert("search text is empty ! ");
                 return false;
             }
-            var search_url = "https://cn.bing.com/search?q=" + search_txt;
+            var search_url = "https://cn.bing.com/search?q=" + encodeURIComponent(search_txt);
             window.open(search_url);
         }
         function do_google_search() {
@@ -32,7 +32,7 @@
                 alert("search text is empty ! ");
                 return false;
             }
-            var search_url = "https://www.google.com/search?newwindow=1&q=" + search_txt;
+            var search_url = "https://www.google.com/search?newwindow=1&q=" + encodeURIComponent(search_txt);
             window.open(search_url);
         }
 		function on_enter_key(){
@@ -42,7 +42,7 @@
 					alert("search text is empty ! ");
 					return false;
 				}
-				var search_url = "https://cn.bing.com/search?q=" + search_txt;
+				var search_url = "https://cn.bing.com/search?q=" + encodeURIComponent(search_txt);
 				window.open(search_url);
 			}
 		}
