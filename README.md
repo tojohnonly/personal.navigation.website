@@ -12,6 +12,8 @@ Page d'accueil de navigation du navigateur personnalisée
 صفحة التصفح الرئيسية المخصصة للمتصفح  
 Home page di navigazione del browser personalizzata   
 
+⭐All are static pages, no online process, preview with a single Click!⭐
+
 ![tojohnonly](https://github.com/tojohnonly/personal.navigation.website/blob/master/Ensk's%20Web/images/Demo.png)
 
 
