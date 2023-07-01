@@ -4,7 +4,7 @@
   [![GitHub forks][forks-image]][forks-url]
   [![GitHub issues][issues-image]][issues-url]
   
-🦄 Now Dark Mode Available 🦄  
+🦄 Now Dark Mode is Available 🦄  
 個人自定義瀏覽器導航主頁  
 Personalisierte Browser Navigations Homepage  
 カスタマイズされたブラウザナビゲーションホームページ  
