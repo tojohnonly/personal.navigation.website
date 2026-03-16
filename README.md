@@ -1,4 +1,4 @@
-# Personal Customized Navigation Website
+# Personal Customized Navigation Website:
 
   [![GitHub stars][stars-image]][stars-url]
   [![GitHub forks][forks-image]][forks-url]
